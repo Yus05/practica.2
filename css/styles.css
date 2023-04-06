@@ -16,3 +16,66 @@ Fuente de la página
   https://fonts.google.com/specimen/Poppins
   Estilos 200, 400 y 600
 */
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  background-color: hsl(0, 0%, 93%);
+  font-family: 'Poppins', sans-serif;
+}
+
+.header{
+  width: 100%;
+  text-align: center;
+}
+
+.title_parrafo{
+  margin-bottom: -17px;
+  font-weight: 200;
+  font-size: 1.5rem;
+}
+
+.title_header,
+.title{
+  font-weight: 600;
+}
+
+.title_header{
+  font-size: 1.5rem;
+}
+
+.title{
+  font-size: .9rem;
+}
+
+.parrafo{
+  font-weight: 400;
+  font-size: .7rem;
+  color: hsl(229, 6%, 66%);
+}
+
+.main{
+  position: relative;
+  top: 30px;
+  width: 100%;
+  /* margin-left: auto;
+  margin-right: auto; */
+}
+
+.card{
+  position: relative;
+  width: 260px;
+  border: 1px solid transparent;
+  border-radius: 15px;
+  box-shadow: 5px 5px 4px hsl(240 25% 50% / .20);
+}
+
+.image{
+  width: 30px;
+}
+
+
+
