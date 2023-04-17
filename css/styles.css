@@ -117,6 +117,40 @@ body{
 
 /* 
 ESTILOS DORIAN: 
-- 
+BODY:
+- En el body puso un text align center, para alinear absolutamente todo el contenido al centro. 
+- Puso la font-weigth: 400.
+
+EN EL MAIN-TITLE: 
+- Como puso dos span dentro del titulo y necesitaba que cada span estuviera en una linea distinta, lo que hizo fue pasarlo de elemento de linea a elemento de bloque y forzar el salto de linea. 
+- Aumento el font-size.
+
+SUTITULO: 
+- Le puso un width del 30%, pero se va de lado. Esto se debe a que al ser un elemento de bloque y tener un ancho declarado, necesitamos centrarlo como elemento de bloque. Lo centro con margin-left y margin-right.
+
+CARDS: 
+- Tomo el contenedor de las tarjetas y le dio position relative, esto con el fin de darle a cada una de las tarjetas position absolute y que se colocon cada una de ellas con respecto al contenedor que ya esta posicionado. 
+- Le dio medidas a el contenedor. 
+
+CARD:  
+- Le dio el position absolute a cada una de las tarjetas y tambien les dio medidas (width y height), ya que perdieron sus medidas al darles position absolute.
+- Les dio bgc. 
+- Luego les dio estilos comunes, como el borde y la sombra.
+
+COLOCANDO LAS TARJETAS: 
+-> Como le puso medidas al contenedor, logro mover cada una de las tarjetas mas facil con respecto al contenedor. 
+
+ESTILOS PROPIOS DE CADA TARJETA: 
+- Para alinear a la izquierda el titulo y el parrafo, lo que hizo fue darles un text-align: left. 
+- Al icono, simplemente le dio un position absolute. Luego un right: 2em y botton: 2em.
+
+BORDE DE COLORES:
+- Lo dio a cada uno con el selecto especifico que se creo para ese estilo en particular. 
+
+DETALLE FINAL: 
+- Como el titulo y el parrafo de cada tarjeta quedaban muy pegados a la izquierda, les dio un padding de 0 en la vertical y de 2em en los lados -> padding: 0 2em. NOTA: Si recuerdo darle al body el box-sizing: border box, no se va a romper al momento de agregar este padding.
+
+FINALMENTE, anadio colores de fuentes, tamanos de fuentes y agrego fuentes de Google. 
+
 */
 
