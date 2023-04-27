@@ -11,34 +11,78 @@
   </head>
   <body>
     <header class="header">
-      <h2 class="title_parrafo">Reliable, efficient delivery</h2>
-      <h1 class="title_header">Powered by Technology</h1>
-      <p class="parrafo">Our artificial intelligence tools use millions of project data <br> points to ensure that your project is succesful</p>
+      <h2 class="header__sub-title">Reliable, efficient delivery</h2>
+      <h1 class="header__title">Powered by Technology</h1>
+      <p class="header__text">Our artificial intelligence tools use millions of project data <br> points to ensure that your project is succesful</p>
     </header>
-    <main class="main">
-      <article class="card card_top">        
-        <h2 class="title">Team Builder</h2>
-        <p class="parrafo">Scans our network to create the optimal team for your project</p>
-        <img src="/assets/images/icon-team-builder.svg" alt="image house" class="image">
-      </article>
-      <article class="card card_bottom">
-        <h2 class="title">Karma</h2>
-        <p class="parrafo">Regularly evaluates our talent to ensure quality</p>
-        <img src="/assets/images/icon-karma.svg" alt="image light" class="image">
-      </article>
-      <article class="card card_left">
-        <h2 class="title">Supervisor</h2>
-        <p class="parrafo">Monitors activity to identify project roadblocks</p>
-        <img src="/assets/images/icon-supervisor.svg" alt="image computer" class="image">
-      </article>
-      <article class="card card_right">
-        <h2 class="title">Supervisor</h2>
-        <p class="parrafo">Uses data from past projects to provide better delivery estimates</p>
-        <img src="/assets/images/icon-calculator.svg" alt="image calculator" class="image">
-      </article>
+    <main>
+      <section class="container">
+        <article class="container__card container__card--red">        
+          <h2 class="container__title">Team Builder</h2>
+          <p class="container__text">Scans our network to create the optimal team for your project</p>
+          <img src="/assets/images/icon-team-builder.svg" alt="image house" class="container__image">
+        </article>
+        <article class="container__card container__card--orange">
+          <h2 class="container__title">Karma</h2>
+          <p class="container__text">Regularly evaluates our talent to ensure quality</p>
+          <img src="/assets/images/icon-karma.svg" alt="image light" class="container__image">
+        </article>
+        <article class="container__card container__card--cyan">
+          <h2 class="container__title">Supervisor</h2>
+          <p class="container__text">Monitors activity to identify project roadblocks</p>
+          <img src="/assets/images/icon-supervisor.svg" alt="image computer" class="container__image">
+        </article>
+        <article class="container__card container__card--blue">
+          <h2 class="container__title">Supervisor</h2>
+          <p class="container__text">Uses data from past projects to provide better delivery estimates</p>
+          <img src="/assets/images/icon-calculator.svg" alt="image calculator" class="container__image">
+        </article>
+      </section>      
     </main>
   </body>
 </html>
+
+<!-- 
+  METODOLOGIA BEM - ANALISIS:
+  - A primera vista, tengo 2 bloques. 
+
+  - El 1er bloque, es un header. Este bloque a su vez contiene un h2, un h1 y un p. Son elementos que pertenecen a ese bloque.
+
+  - El 2do bloque, se encuentra dentro del main. Y es un section. Dentro de este section, hay 3 articles. Estos 3 articles, serian los elementos que conforman este bloque.
+    - Dentro de cada uno de estos articles, hay: Un h2, un p y un img. Cada uno de estos tambien son elementos que conforman el bloque 2do.
+
+  CLASES BEM:
+  - Bloque header -> class="header"
+      - h2 -> class="header__sub-title"
+      - h1 -> class="header__title"
+      - p -> class="header__text"
+
+  - Bloque section -> class="container"
+      - 1er article -> class="container__card"
+          - h2 -> class="container__title"
+          - p -> class="container__text"
+          - img -> class="container__image"
+      - 2do article -> class="container__card"
+          - h2 -> class="container__title"
+          - p -> class="container__text"
+          - img -> class="container__image"
+      - 3er article -> class="container__card"
+          - h2 -> class="container__title"
+          - p -> class="container__text"
+          - img -> class="container__image"
+      - 4to article -> class="container__card"
+          - h2 -> class="container__title"
+          - p -> class="container__text"
+          - img -> class="container__image"
+    
+  MODIFICADORES:
+    - container__card--red
+    - container__card--orange
+    - container__card--cyan
+    - container__card--blue
+
+ -->
+
 
 <!-- 
 ESTRUCTURA DE DORIAN: 

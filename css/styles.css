@@ -27,33 +27,60 @@ body{
   font-family: 'Poppins', sans-serif;
 }
 
+/* TRABAJANDO CON EL HEADER:   */
+
 .header{
   width: 100%;
   text-align: center;
 }
 
-.title_parrafo{
+.header__sub-title{
   margin-bottom: -17px;
   font-weight: 200;
   font-size: 1.5rem;
 }
 
-.title_header,
-.title{
+.header__title{
   font-weight: 600;
-}
-
-.title_header{
   font-size: 1.5rem;
-}
-
-.title{
-  font-size: .8rem;
   padding-top: 5px;
   padding-left: 10px;
 }
 
-.parrafo{
+.header__text{
+  font-weight: 400;
+  font-size: .65rem;
+  color: hsl(229, 6%, 66%);
+  padding-top: 8px;
+  padding-right: 12px;
+  padding-left: 12px;
+}
+
+
+/* TRABAJANDO CON EL MAIN: */
+
+.main{
+  position: relative;
+  top: 30px;
+  width: 100%;
+}
+
+.container__card{
+  position: relative;
+  width: 230px;
+  height: 160px;
+  border: 1px solid transparent;
+  border-radius: 15px;
+  box-shadow: 5px 5px 4px hsl(240 25% 50% / .20);
+}
+
+.container__title{
+  font-weight: 600;
+  font-size: .9rem;
+  padding-left: 12px;
+}
+
+.container__text{
   font-weight: 400;
   font-size: .6rem;
   color: hsl(229, 6%, 66%);
@@ -62,58 +89,45 @@ body{
   padding-left: 12px;
 }
 
-.main{
-  position: relative;
-  top: 30px;
-  width: 100%;
-}
-
-.card{
-  position: relative;
-  width: 230px;
-  border: 1px solid transparent;
-  border-radius: 15px;
-  box-shadow: 5px 5px 4px hsl(240 25% 50% / .20);
-}
-
-.image{
-  position: relative;
-  left: 180px;
+.container__image{
   width: 35px;
+  position: relative;
+  left: 170px;
+  bottom: 25px;
   padding-top: 35px;
   padding-bottom: 10px;
 }
 
-.card_top,
-.card_bottom,
-.card_left,
-.card_right{
+.container__card--red,
+.container__card--orange,
+.container__card--cyan,
+.container__card--blue{
   position: absolute;
 }
 
-.card_top{
+.container__card--red{
   left: 525px;
+  top: 200px;
   border-top: 4px solid hsl(0, 78%, 62%);
 }
 
-.card_bottom{
+.container__card--orange{
   left: 525px;
-  top: 200px;
+  top: 390px;
   border-top: 4px solid hsl(34, 97%, 64%);
 }
 
-.card_left{
+.container__card--cyan{
   left: 250px;
-  top: 100px;
+  top: 300px;
   border-top: 4px solid hsl(180, 62%, 55%);
 }
 
-.card_right{
+.container__card--blue{
   left: 800px;
-  top: 100px;
+  top: 300px;
   border-top: 4px solid hsl(212, 86%, 64%);
 }
-
 
 /* 
 ESTILOS DORIAN: 
